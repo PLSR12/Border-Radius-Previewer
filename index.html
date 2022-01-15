@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRP</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1> Visualizador Border Radius </h1>
+        <div id="border-radius-container">
+            <h2> Mude minhas bordas :)</h2>
+        </div>
+        <form id="border-radius-input">
+            <input type="number" name="top-left" placeholder="Top Left" />
+            <input type="number" name="top-right" placeholder="Top Right" />
+            <input type="number" name="bottom-right" placeholder="Bottom Right" />
+            <input type="number" name="bottom-left" placeholder="Bottom Left" />
+        </form>
+
+        <div class="border-radius-result">
+            <code>border-radius: <span id="border-radius"></span>;</code>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
